@@ -4,12 +4,12 @@ Tutorial on how Git and Github works.
 
 ## Overview
 * Git is a version control system (VCS) for tracking changes in computer files
-** Created in 2005 - distributed version control (decentralized)
-** Coordinate with between multiple developers (local + remote repos)
+- Created in 2005 - distributed version control (decentralized)
+- Coordinate with between multiple developers (local + remote repos)
 * Concepts:
-** Keep track of code history (snapshots of files) - committing
+- Keep track of code history (snapshots of files) - committing
 * Recommended: git-scm.com
-** Use gitbash over standard command line
+- Use gitbash over standard command line
 * Add a readme.md for public repositories
 
 
@@ -19,17 +19,17 @@ Tutorial on how Git and Github works.
 * $ git rm --cached <file> - remove file(s) from index/staging
 * $ git status - check status of working tree
 * $ git commit - commit changes to index (local repository)
-** With commenting step:
-*** After committing, press ‘i’ to start typing and ‘escape’ to exit
-*** :wq - used to save the commit
-** Without commenting step:
-*** $ git commit -m ‘comment’
+- With commenting step:
+-- After committing, press ‘i’ to start typing and ‘escape’ to exit
+-- :wq - used to save the commit
+- Without commenting step:
+-- $ git commit -m ‘comment’
 * $ git branch <name> - creates a branch
 * $ git checkout <branch> - switches to another branch
 * $ git merge <branch> - merges branches
 * $ git remote add origin <git url> - add a remote repository
 * $ git push -u origin <branch> - push to remote repository (github/bitbucket)
-** $ git push - push new updates
+-- $ git push - push new updates
 * $ git pull - pull latest from remote repository
 * $ git clone - clone repository to new directory
 * $ git --version - show version number
