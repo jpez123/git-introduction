@@ -29,6 +29,7 @@ Tutorial on how Git and Github works.
 * $ git merge <branch> - merges branches
 * $ git remote add origin <git url> - add a remote repository
 * $ git push -u origin <branch> - push to remote repository (github/bitbucket)
+** $ git push - push new updates
 * $ git pull - pull latest from remote repository
 * $ git clone - clone repository to new directory
 * $ git --version - show version number
